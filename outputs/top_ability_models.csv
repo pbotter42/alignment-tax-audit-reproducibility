@@ -1,0 +1,11 @@
+Model,Ability,Delta_g,Coherence_R2_1F,params_num,model_type
+alchemonaut/QuartetAnemoi-70B-t0.0001,116.74250663322371,-1.3999999999997e-4,0.4452893752321867,68.977,base_or_other
+lodrick-the-lafted/Grafted-Llama2-2x70B,116.59353238412837,-1.7e-4,0.4675443170283369,125.349,merge_or_moe
+cloudyu/Mixtral_7Bx5_MoE_30B,116.52160921094799,-1.4999999999998e-4,0.457413118384715,29.791,merge_or_moe
+eldogbbhed/NeuralMonarchCoderPearlBeagle,116.48207664583524,-1.4999999999998e-4,0.46026523968711175,7.242,base_or_other
+Sao10K/WinterGoddess-1.4x-70B-L2,116.4385191270405,-1.4999999999998e-4,0.45829102040383995,68.977,base_or_other
+Weyaxi/OpenHermes-2.5-neural-chat-v3-3-openchat-3.5-1210-Slerp,116.2892965043135,-1.3999999999997e-4,0.4535575185694014,7.242,merge_or_moe
+ignos/LeoScorpius-GreenNode-Platypus-7B-v1,116.26220739844933,-1.7e-4,0.4784818160528813,7,base_or_other
+Steelskull/Umbra-MoE-4x10.7,116.21860304754759,-1.2e-4,0.43380883077931776,36.099,base_or_other
+jsfs11/SnorkelWestBeagle-DARETIES-7B,116.17492467609028,-1.3000000000001e-4,0.44647005695061626,7.242,merge_or_moe
+PulsarAI/MetaMath-Chupacabra-7B-v2.01-Slerp,116.17389022508695,-1.7e-4,0.47598092124518354,7.242,merge_or_moe

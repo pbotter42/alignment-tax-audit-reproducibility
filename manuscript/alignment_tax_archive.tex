@@ -57,7 +57,7 @@ The present study asks a targeted question: once ability and latent-structure im
 \section{Data}
 Let $X \in \{0,1\}^{n \times p}$ denote the model-by-item response matrix, where $n=591$ and $p=12{,}061$. Rows correspond to deduplicated model architectures. The dataset is a fixed historical slice (April 8, 2024) and intentionally excludes post-snapshot models.
 
-Item-level responses are taken from the Open LLM Leaderboard release \citep{openllmleaderboard2024}. Architecture filtering and deduplication follow the workflow reported by \citet{ilic2024interrelated}. Data and code for this audit are available at \url{https://github.com/pbotter42/LLMbench}.
+Item-level responses are taken from the Open LLM Leaderboard release \citep{openllmleaderboard2024}. Architecture filtering and deduplication follow the workflow reported by \citet{ilic2024interrelated}. Data, code, and manuscript materials for this audit are available at \href{https://github.com/pbotter42/alignment-tax-audit-reproducibility}{github.com/pbotter42/alignment-tax-audit-reproducibility}.
 
 Define $\mu \in \mathbb{R}^{p}$ as the itemwise mean and the centered matrix
 \[
@@ -66,7 +66,7 @@ X_c = X - \mathbf{1}\mu^\top.
 All results in this manuscript are computed from this fixed matrix with bootstrap uncertainty where appropriate.
 
 \subsection{Software Environment}
-All analyses were executed in R (version 4.4.0). Compute was performed on a MacBook Air (Apple M2, 8 GB memory, macOS 15.7.3). Reproducible code and workflow materials are available at \url{https://github.com/pbotter42/LLMbench}.
+All analyses were executed in R (version 4.4.0). Compute was performed on a MacBook Air (Apple M2, 8 GB memory, macOS 15.7.3). Reproducible code and workflow materials are available at \href{https://github.com/pbotter42/alignment-tax-audit-reproducibility}{github.com/pbotter42/alignment-tax-audit-reproducibility}.
 
 \section{Mathematical Framework}
 \subsection{Ability as the First Principal Component}
